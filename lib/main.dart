@@ -1,5 +1,5 @@
+import './screens/splash_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:todo_app_tec/screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,10 +13,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
         useMaterial3: false,
       ),
-      home: const HomeScreen(),
+      home: const SplashScreen(),
     );
   }
 }
