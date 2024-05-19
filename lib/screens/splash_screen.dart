@@ -14,7 +14,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     Timer(const Duration(seconds: 3), () {
-      Navigator.push(
+      Navigator.pushReplacement(
           context, MaterialPageRoute(builder: (context) => const HomeScreen()));
     });
     super.initState();
@@ -40,34 +40,6 @@ class _SplashScreenState extends State<SplashScreen> {
               fontSize: 30, color: Colors.blue, fontWeight: FontWeight.bold),
         )
       ],
-    )
-            // Container(
-            //   decoration: BoxDecoration(
-            //       borderRadius: BorderRadius.circular(400),
-            //       gradient: const LinearGradient(
-            //           begin: Alignment.topLeft,
-            //           end: Alignment.bottomRight,
-            //           colors: [Colors.green, Colors.yellow])),
-            //   width: 300,
-            //   height: 300,
-            //   child: const Padding(
-            //     padding: EdgeInsets.all(24.0),
-            //     child: Column(
-            //       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            //       crossAxisAlignment: CrossAxisAlignment.start,
-            //       children: [
-            //         Text(
-            //           "AYA",
-            // style: TextStyle(fontSize: 50, color: Colors.white70),
-            //         ),
-            //         Text(
-            //           "GHOFRAN",
-            //           style: TextStyle(fontSize: 50, color: Colors.white70),
-            //         )
-            //       ],
-            //     ),
-            //   ),
-            // ),
-            ));
+    )));
   }
 }
