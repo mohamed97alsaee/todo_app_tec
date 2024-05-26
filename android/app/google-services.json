@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "54452827413",
+    "project_id": "todo-app-tec9",
+    "storage_bucket": "todo-app-tec9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54452827413:android:1549b63fa677aef7a1a51c",
+        "android_client_info": {
+          "package_name": "com.example.todo_app_tec"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA44DUJrwp8Tk60d_ug0ppOvUOk2iTSs5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
